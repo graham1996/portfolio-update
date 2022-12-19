@@ -1,0 +1,183 @@
+/* Universal Selector */
+* {
+  margin:0;
+  padding:0;  
+}
+
+html {
+    background: url(images/pexels-dom-j-310452.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+/* Element Selectors */
+
+
+body {
+  position: relative;
+  font-family: 'DM Serif Display', sans-serif;
+  font-size: 20px;
+  background-color: rgb(227, 146, 165);
+  color: #FFFBE1;
+  margin: 5%;
+}
+
+h1,
+h2 {
+  margin: 20px;
+  font-family: 'DM Serif Display', sans-serif;
+}
+
+main {
+  padding: 60px 0;
+  font-family: 'DM Serif Display', sans-serif;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #EFBD92;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #FFFBE1;
+    position: static;
+
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #FFFBE1;
+}
+
+
+.photo {
+  width:200px; 
+  display: block;  
+  border-radius:50%; 
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  /*border-bottom: 10px solid #4F4846;*/
+  color: #EFBD92;    
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border: 8px solid #EFBD92;
+  
+}
+
+
+#about {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    background-color: #EFBD92;
+
+}
+
+#projects {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    background-color: #E79866;
+}
+
+#contact {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  /*border-top: 3px solid white;*/
+  background-color:  #E392A5;
+}
+
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #FFFBE1;
+  border-radius: 20px;
+  
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid wheat;
+  border-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #FFFBE1;
+  color: #E79866;
+  font-family: 'DM Serif Display', Georgia, 'Times New Roman', Times, serif;
+  border: 1px solid wheat;
+  border-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+
+}
+
+ 
+/* Class Selectors */
+.text-center {
+  text-align: center;
+}
+footer {
+  /*border-top: 3px solid white;*/
+}
+
+.text-right {
+  text-align: right;
+  font-family:'DM Serif Display', Georgia, 'Times New Roman', Times, serif;
+}
+
+.wikicraft {
+  max-width: 600px;
+}
+
+.horror {
+  max-width: 300px;
+}
+
+.workday {
+  max-width: 300px;
+}

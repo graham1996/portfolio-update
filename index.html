@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!--link to external font-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+    </style>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <title>Graham Johnson Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="text-center">
+            <ul>
+                <li> <a href="https://github.com/graham1996" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li> <a href="https://www.linkedin.com/in/graham-johnson-035a6823a" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="text-center">Graham Johnson</h1>
+        <figure>
+            <img src="./assets/images/IMG_6750.jpg" alt="Photo of Graham" class="photo">
+        </figure>
+
+        <section id="about">
+            <h1 class="text-center">Let's Get to Know Each Other</h1>
+            <figcaption class="text-center">Nice to meet you! I'm Graham, a 26 year old full stack bootcamp student
+                currently learning all about the wonderful world of web development. I started this journey in June
+                2022, and I can't wait to see where it takes me.</figcaption>
+        </section>
+
+        <section id="projects">
+            <h2 class="text-center">Wikicraft</h2>
+            <a 
+                href="https://game-recipes.herokuapp.com/" target="_blank">
+                <img src="assets/images/wikicraft.png"
+                    alt="wikicraft landing page" class="wikicraft"></a>
+           <div class="wrap">
+                <h2 class="text-center">Horrorscopes</h2>
+                <a 
+                    href="https://graham1996.github.io/Horror-Scopes/" target="_blank">
+                    <img src="assets/images/horrorscope.png"
+                        alt="blank placeholder image containing text that read 300 x 200" class="horror"></a>
+                <h2 class="text-center">Project Three</h2>
+                <a 
+                    href="https://graham1996.github.io/workday-scheduler/" target="_blank">
+                    <img src="assets/images/workday.png"
+                        alt="blank placeholder image containing text that read 300 x 200" class="workday"></a>
+        </section>
+
+        <section id="contact">
+            <h2 class="text-center">Have a Question?</h2>
+            <h3 class="text-center">Don't Be Shy!</h3>
+            <p class="text-center">Email me at: nataliegrahamj@gmail.com</p>
+            <form>
+                <ul>
+                    <li>
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                        <label class="text-right" for="email">Email:</label>
+                        <input type="text" id="email" name="user-email">
+                    </li>
+                    <li>
+                        <label class="text-right" for="message">Message:</label>
+                        <input type="text" id="message" name="user-message">
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <button type="submit">SEND</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        © 2022 Graham Johnson
+    </footer>
+
+</body>
+
+</html>
